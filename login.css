@@ -1,0 +1,72 @@
+
+
+body{
+    background-image: url("hand.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin:50px;
+    padding-left:40px ;
+    color: cornflowerblue;
+}
+h2:hover{
+    color: white;
+}
+
+form{
+    margin:0;
+
+    /* border: 1px solid white; */
+    border-radius: 25px;
+    width: 32%;
+    box-shadow: 10px 10px 10px 10px;
+    margin-left: 20px;
+    height: 580px;
+    margin-top: 0;
+    background-color:rgba(0, 0, 256, 0.1) ;
+    float: right;
+    margin-right: 20px;
+}
+
+.form-group{
+    margin-top: 5px;
+    width: 380px;
+    height: 65px;
+    margin-left: 8%;
+    border-radius: 20px;
+}
+.form-control{
+    margin-top: 5px;
+    width:359px ;
+    align-content: center;
+    justify-content: centers;
+    border-radius: 20px;
+}
+.form-submit{
+    margin-left: 30%;
+    border-radius: 50%;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.submit{
+    background-color: orange;
+    width: 200px;
+    height: 39px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+.submit:hover{
+    background-color: blue;
+}
+
+h2{
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+

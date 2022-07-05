@@ -1,0 +1,233 @@
+body{
+    background-image: url("backg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#navMenu{
+    margin:10px;
+    padding:0;
+    position: sticky;
+
+}
+
+#navMenu ul {
+margin: 0;
+padding: 0;
+line-height: 30px;
+
+}
+
+#navMenu li {
+    margin: 0;
+    padding:0;
+    list-style: none;
+     float:left;
+    position: relative;
+    background: peachpuff;
+   
+}
+
+#navMenu ul li a {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-decoration: none;
+    height: 40px;
+    width: 250px;
+    display: block;
+    color: white;
+    border: 1px solid white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#navMenu ul ul {
+    position: absolute;
+    visibility: hidden;
+    top: 32px;
+
+}
+
+#navMenu ul li:hover ul {
+    visibility: visible;
+
+}
+
+#navMenu li:hover {
+background-color: coral;
+}
+
+#navMenu ul li:hover ul li a:hover {
+
+    background-color:#00ffff;
+    color: black;
+}
+
+#navMenu a:hover {
+    background-color: darkblue;
+}
+
+/* .clearFloat{
+    clear: both;
+    margin: 0;
+    padding: 0;
+} */
+
+
+#log{
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    border: 2px solid black;
+    padding: 5px;
+    background-color:#ffffff;
+    color:black;
+    height: 47px;
+    width: 120px;
+    border-radius: 40px;
+}
+
+a#log:hover {
+    color:#000000;
+    background-color: #ffd700;
+}
+#log {
+    padding-top: 10px;
+}
+h1{
+    color: gold;
+    margin: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+
+p{
+    margin-left: 300px;
+    margin-top: 15px;
+    font-size: 5em;
+    font-family:fantasy;
+    font-weight: 400;
+    color: #ffffff;
+    justify-content: center;
+}
+.defi{
+    /* border: 1px solid white; */
+    width: 650px;
+    padding-left: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px 6px;
+}
+.defi:hover{
+    background-color:gold ;
+}
+
+p span{
+    display: block;
+}
+
+
+section{
+    margin-top: 120px;
+    background-color: #ffffff;
+}
+
+img{
+    width: 240px;
+    height: 290px;
+    align-content: center;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+.cash{
+    margin-left: 150px;
+}
+.spend{
+    margin-left: 450px;
+    margin-top: 0;
+}
+   h3{
+    /* margin-left: 90px;
+    margin-top: 50px; */
+    float: right;
+    margin-right: 20%;
+    margin-top: 20px;
+    color: #000000;
+   }
+
+   .foot{
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50%;
+   }
+
+   #learn-more{
+    color: #ffffff;
+    border: 1px solid;
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 44%;
+    text-decoration: none;
+    background-color: #000000;
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+   }
+
+   .flow{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: gold;
+   }
+
+   .send{
+    align-content: flex-start;
+    float: left;
+    margin-left: 10px;
+    margin-right: 15px;
+   }
+
+   .spend{
+    margin-right: ;
+    margin-left: 0;
+    text-align: center;
+   }
+
+   .bank{
+    text-align: center;
+    margin-right: 20px;
+   }
+
+   .invest{
+    float: right;
+    margin-left: 5%px;
+   }
+
+   .sec-1{
+    float: left;
+   }
+
+   .sec-2{
+    float: right;
+   }
+
